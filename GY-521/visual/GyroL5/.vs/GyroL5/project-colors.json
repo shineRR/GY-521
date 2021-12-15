@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7dc09165-3c72-4ee5-830f-f0effd100675": {
+      "ProjectGuid": "7dc09165-3c72-4ee5-830f-f0effd100675",
+      "DisplayName": "GyroL5",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

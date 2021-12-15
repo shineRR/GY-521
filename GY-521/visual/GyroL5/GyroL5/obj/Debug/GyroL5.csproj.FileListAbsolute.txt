@@ -1,0 +1,11 @@
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\obj\Debug\GyroL5.csproj.AssemblyReference.cache
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\obj\Debug\GyroL5.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\obj\Debug\GyroL5.Form1.resources
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\obj\Debug\GyroL5.Properties.Resources.resources
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\obj\Debug\GyroL5.csproj.GenerateResource.cache
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\obj\Debug\GyroL5.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\bin\Debug\GyroL5.exe.config
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\bin\Debug\GyroL5.exe
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\bin\Debug\GyroL5.pdb
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\obj\Debug\GyroL5.exe
+C:\Users\Ilya\Desktop\L5\visual\GyroL5\GyroL5\obj\Debug\GyroL5.pdb

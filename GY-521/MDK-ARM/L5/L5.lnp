@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"l5\startup_stm32f103xb.o"
+"l5\main.o"
+"l5\stm32f1xx_it.o"
+"l5\stm32f1xx_hal_msp.o"
+"l5\stm32f1xx_hal_gpio_ex.o"
+"l5\stm32f1xx_hal_i2c.o"
+"l5\stm32f1xx_hal.o"
+"l5\stm32f1xx_hal_rcc.o"
+"l5\stm32f1xx_hal_rcc_ex.o"
+"l5\stm32f1xx_hal_gpio.o"
+"l5\stm32f1xx_hal_dma.o"
+"l5\stm32f1xx_hal_cortex.o"
+"l5\stm32f1xx_hal_pwr.o"
+"l5\stm32f1xx_hal_flash.o"
+"l5\stm32f1xx_hal_flash_ex.o"
+"l5\stm32f1xx_hal_exti.o"
+"l5\stm32f1xx_hal_tim.o"
+"l5\stm32f1xx_hal_tim_ex.o"
+"l5\stm32f1xx_hal_usart.o"
+"l5\system_stm32f1xx.o"
+--strict --scatter "L5\L5.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "L5.map" -o L5\L5.axf
