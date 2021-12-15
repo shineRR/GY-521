@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GyroL5.Model
 {
-    internal class GYModel
+    public class GYModel
     {
         public int gx;
         public int gy;

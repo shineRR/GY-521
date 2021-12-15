@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GyroL5.Model.Port_Builder
 {
-    internal class PortBuilder: IPortBuilder
+    internal class PortBuilder : IPortBuilder
     {
         public SerialPort _serialPort { get; }
 
@@ -54,6 +54,7 @@ namespace GyroL5.Model.Port_Builder
             }
             catch (Exception e)
             {
+                job(null);
                 Console.WriteLine(e.ToString());
             }
         }
