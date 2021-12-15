@@ -22,9 +22,9 @@ namespace GyroL5.Model.Game
         public void Start()
         {
             Random r = new Random();
-            x = r.Next(-500, 500);
-            y = r.Next(-500, 500);
-            z = r.Next(-500, 500);
+            x = r.Next(0, 500);
+            y = r.Next(0, 500);
+            z = r.Next(0, 500);
             gameState = GameState.active;
         }
 
