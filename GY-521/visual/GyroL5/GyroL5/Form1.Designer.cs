@@ -47,6 +47,8 @@
             this.axTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tempTextBox = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.combinationTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // portComboBox
@@ -93,7 +95,7 @@
             this.statusLabel.AutoSize = true;
             this.statusLabel.BackColor = System.Drawing.SystemColors.Control;
             this.statusLabel.ForeColor = System.Drawing.Color.Red;
-            this.statusLabel.Location = new System.Drawing.Point(32, 428);
+            this.statusLabel.Location = new System.Drawing.Point(32, 425);
             this.statusLabel.Name = "statusLabel";
             this.statusLabel.Size = new System.Drawing.Size(39, 13);
             this.statusLabel.TabIndex = 6;
@@ -218,11 +220,30 @@
             this.tempTextBox.Size = new System.Drawing.Size(100, 20);
             this.tempTextBox.TabIndex = 19;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(482, 425);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(119, 13);
+            this.label7.TabIndex = 21;
+            this.label7.Text = "Win combination(+- 50):";
+            // 
+            // combinationTextBox
+            // 
+            this.combinationTextBox.Location = new System.Drawing.Point(607, 422);
+            this.combinationTextBox.Name = "combinationTextBox";
+            this.combinationTextBox.ReadOnly = true;
+            this.combinationTextBox.Size = new System.Drawing.Size(181, 20);
+            this.combinationTextBox.TabIndex = 22;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.combinationTextBox);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tempTextBox);
             this.Controls.Add(this.label1);
@@ -269,6 +290,8 @@
         private System.Windows.Forms.TextBox axTextBox;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox tempTextBox;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox combinationTextBox;
     }
 }
 

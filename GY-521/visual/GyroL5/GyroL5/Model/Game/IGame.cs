@@ -13,5 +13,6 @@ namespace GyroL5.Model.Game
         void Update();
         bool isCorrectResult(GYModel model);
         bool IsActiveGame();
+        string GetWinCombination();
     }
 }

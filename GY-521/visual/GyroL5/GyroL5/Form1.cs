@@ -8,16 +8,6 @@ using GyroL5.Model.Game;
 
 namespace GyroL5
 {
-    public class Constants
-    {
-        public static string activeTitle = "Active";
-        public static string inactiveTitle = "Inactive";
-        public static string inactiveButtonTitle = "Start monitoring";
-        public static string activeButtonTitle = "Stop monitoring";
-        public static Color activeColor = Color.Green;
-        public static Color inactiveColor = Color.Red;
-    }
-
     public partial class Form1 : Form
     {
 
@@ -64,6 +54,7 @@ namespace GyroL5
         {
             if (game.IsActiveGame()) {
                 game.Update();
+                combinationTextBox.Text = game.GetWinCombination();
             }
         }
 
@@ -84,6 +75,7 @@ namespace GyroL5
 
             SetupUI(Constants.activeTitle, Constants.activeColor, Constants.activeButtonTitle);
             game.Start();
+            combinationTextBox.Text = game.GetWinCombination();
         }
 
         private void StopMonitoring()

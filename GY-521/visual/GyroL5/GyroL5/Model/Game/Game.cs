@@ -50,5 +50,10 @@ namespace GyroL5.Model.Game
                    Enumerable.Range(y - 50, y + 50).Contains(model.gy) &&
                    Enumerable.Range(z - 50, z + 50).Contains(model.gz);
         }
+
+        public string GetWinCombination()
+        {
+            return "x: " + x.ToString() + ", y: " + y.ToString() + ", z: " + z.ToString();
+        }
     }
 }

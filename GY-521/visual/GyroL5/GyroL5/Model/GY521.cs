@@ -12,14 +12,6 @@ namespace GyroL5.Model
             _serialPort = serialPort;
         }
 
-        private void performWork()
-        {
-            StartMonitoring(model =>
-            {
-                Console.WriteLine(model);
-            });
-        }
-
         private void StartMonitoring(TaskDelegate job)
         {
             _serialPort.StartMonitoring(job);
